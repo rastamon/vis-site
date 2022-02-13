@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vis</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./Style_Vrt/Style_Vrt_Ver1.3.css">
+    <link rel="stylesheet" href="./Style_Vrt/Style_Vrt_Home_Ver1.2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
+    <script src="./Scripts_Vrt/particle.js" defer></script>
+
+</head>
+
+<body>
+    <nav>
+        <div class="wrapper">
+
+            <!-- WEBSITE LOGO -->
+            <div class="logo">
+                <!-- <img src="./logo.png" alt=""> -->
+                <a href="./Vrt_Home_Ver1.2.html">
+                    <h1 class="copmany-head">Vis</h1>
+                </a>
+            </div>
+
+            <!-- THEME TOGGLER -->
+
+
+            <!-- OPEN AND CLOSE NAVIGATION BUTTONS -->
+            <input type="radio" name="slide" id="menu-btn">
+            <input type="radio" name="slide" id="cancel-btn">
+
+
+            <!-- NAVIGATION -->
+            <div class="columnbar">
+                <ul class="nav-links">
+                    <label for="cancel-btn" class="btn cancel-btn">&times;</label>
+                    <li><a href="./Vrt_Events_Ver1.0.html">Events</a></li>
+
+                    <li>
+                        <a href="#" class="desktop-item">Resources</a>
+
+                        <input type="checkbox" name="" id="showMega">
+                        <label for="showMega" class="mobile-item">Resources</label>
+
+                        <div class="mega-box">
+                            <div class="content">
+                                <div class="row">
+                                    <header>Desig Brief</header>
+                                    <ul class="mega-links">
+                                        <li><a href="./Vrt_References_Ver1.0.html">References</a></li>
+                                        <li><a href="#">Plan of Work</a></li>
+                                        <li><a href="#">Copyright</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                    </li>
+                    <li><a href="./Vrt_Pricing_Ver1.0.html">Plans and Pricing</a></li>
+                    <li><a href="./Vrt_News_Ver1.0 .html">News</a></li>
+                </ul>
+                <ul class="log-links">
+                    <span class="material-icons">person_outline</span>
+
+                    <li><a href="#">Sign up</a></li>
+
+                    <li>
+                        <a href="#">Login</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- <button id="theme-toggle" aria-label="Switch to dark theme">
+                <svg width="30" height="30" viewBox="0 0 400 400" fill="none">
+                    <g id="solar">
+                        <g id="Flares">
+                            <rect id="flare1" x="74.7767" y="74.7767" width="250" height="250" fill="black" />
+                            <rect id="flare2" x="23" y="199.777" width="250" height="250"
+                                transform="rotate(-45 23 199.777)" fill="black" />
+                        </g>
+                        <g id="Circles">
+                            <circle id="solar-bg" cx="199.5" cy="199.5" r="103.5" fill="none" />
+                            <circle id="solar-object" cx="200" cy="200" r="84" fill="black" />
+                        </g>
+                    </g>
+                </svg>
+            </button> -->
+            <label for="menu-btn" class="btn menu-btn">☰</label>
+        </div>
+
+    </nav>
+
+
+    <!-- Banner -->
+    <header class="banner">
+        <canvas id="canvas1"></canvas>
+        <div class="bnr-container spacing span-2">
+            <!-- <img src="./Images_Med/Doctor_bkg.png" alt=""> -->
+            <h1 class="primary-title">Events Brought to Life</h1>
+            <p>Explore how the VIS platform engages audience and elevates customer experience
+                by seamlessly connecting users with live networking </p>
+            <a href="#" class="body-btn">Explore</a>
+        </div>
+        <div class="bnr-container spacing banner-image span-2">
+            <div class="image-container">
+                <img src="./Images_Vrt/banner-image.png" alt="">
+            </div>
+        </div>
+
+    </header>
+
+    <section class="brands">
+        <h1>Brands that Trust Us</h1>
+        <div class="brand-container">
+            <div class="brand-image">
+                <img src="./Images_Vrt/chirper.svg" alt="">
+            </div>
+            <div class="brand-image">
+                <img src="./Images_Vrt/Infinite.svg" alt="">
+            </div>
+            <div class="brand-image">
+                <img src="./Images_Vrt/chirper.svg" alt="">
+            </div>
+            <div class="brand-image">
+                <img src="./Images_Vrt/Infinite.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- APP -->
+
+    <section class="card-section">
+
+        <div class="card-container">
+            <div class="cards">
+                <div class="card-image">
+                    <img src="./Images_Vrt/code.PNG" alt="">
+                </div>
+                <div class="card-info">
+                    <h2><a class="fancy-link" href="#">New and functional Developer Features</a></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, fuga!
+                    </p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card-image">
+                    <img src="./Images_Vrt/graduation.png" alt="">
+                </div>
+                <div class="card-info">
+                    <h2><a class="fancy-link" href="#">Ready for Graduation? Celebrate Here!</a></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, fuga!
+                    </p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card-image">
+                    <img src="./Images_Vrt/concert.png" alt="">
+                </div>
+                <div class="card-info">
+                    <h2><a class="fancy-link" href="#">Enjoy Musical Accousitics</a></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, fuga!
+                    </p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card-image">
+                    <img src="./Images_Vrt/code.PNG" alt="">
+                </div>
+                <div class="card-info">
+                    <h2><a class="fancy-link" href="#">Lorem, ipsum.</a></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, fuga!
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <section class="app readable">
+        <img src="./Images_Vrt/Phone.svg" alt="">
+        <div class="app-info">
+            <h1>Download the app. Go mobile!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi explicabo quasi nulla delectus
+                nesciunt quisquam molestiae corrupti quae distinctio tempora impedit id nihil cum vel, dolor culpa sit
+                ipsam aspernatur.</p>
+        </div>
+        <div class="image-container">
+            <img src="./Images_Vrt/Vis-logo-small.svg" alt="">
+
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="inner-footer fancy-link-light">
+            <div class="footer-items">
+                <h1>VIS</h1>
+                <p>"Meet With Anybody"</p>
+                <img src="Images_Vrt/Vis-logo-dark.svg" width="91" height="70">
+            </div>
+            <div class="footer-items">
+                <h2>Resources</h2>
+                <div class="border"></div>
+                <ul>
+                    <li class=""><a href="./Vrt_References_Ver1.0.html">References</a></li>
+                    <li><a href="#">Work Log</a></li>
+                    <li><a href="#">Copyright CheckList</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-items">
+                <h2>About</h2>
+                <div class="border"></div>
+                <ul>
+                    <li><a href="./Vrt_About_Ver1.0.html">About</a></li>
+                    <li><a href="./Vrt_Events_Ver1.0.html">Events</a></li>
+
+
+                </ul>
+            </div>
+            <div class="footer-items">
+                <h2>Use</h2>
+                <div class="border"></div>
+                <ul>
+                    <li><a href="./Vrt_Pricing_Ver1.0.html">Price Plans</a></li>
+                    <li><a href="#">Sign Up</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">Copyright © SAI 2020. All rights reserved</div>
+    </section>
+
+    <script src="./Scripts_Vrt/theme-switcher.js"></script>
+</body>
+
+
+
+</html>
