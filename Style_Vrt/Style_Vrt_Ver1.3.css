@@ -433,7 +433,7 @@ nav .wrapper {
 }
 
 .wrapper .btn {
-    color:var(--clr-foreground);
+    color:var(--clr-light);
     font-size: 20px;
     cursor: pointer;
     display: none;
@@ -507,6 +507,9 @@ nav .wrapper {
         font-size: 20px;
     }
 
+    .log-links span {
+        display:none;
+    }
 
     #showMega:checked ~ .mega-box{
         max-height: 150vh;
