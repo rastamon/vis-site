@@ -62,8 +62,8 @@ window.onload = function () {
             let size = Math.random() * 82;
             let x = Math.random() * (innerWidth - size * 2);
             let y = Math.random() * (innerHeight - size * 2);
-            let directionX = (Math.random() * 5) - .2;
-            let directionY = (Math.random() * 5) - .2;
+            let directionX = (Math.random() * .5) - .2;
+            let directionY = (Math.random() * .5) - .2;
             let filter = `blur(${Math.random() * 2}px)`
             //ctx.globalAlpha = Math.random() + 0.5;
 
