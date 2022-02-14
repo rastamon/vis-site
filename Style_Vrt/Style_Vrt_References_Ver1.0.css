@@ -76,7 +76,7 @@ h1, h2{
 
 
 .wave-layer {
-    background-image: url(./Images_Vrt/green-wave-blue-small.svg);
+    background-image: url(./Images_Vrt/black-wave-small.svg);
     z-index: 0;
     display: flex;
     justify-content: center;
@@ -99,7 +99,7 @@ h1, h2{
     .wave-layer {
         flex-direction: row;
         
-        background-image: url(./Images_Vrt/green-wave-blue.svg);
+        background-image: url(./Images_Vrt/black-wave.svg);
 
     }
 
@@ -144,172 +144,6 @@ h1, h2{
     line-height: 1;
     text-transform: uppercase;
     letter-spacing: 5px;
-}
-
-.card-section{
-background-color: var(--clr-neutral-2);
-
-}
-
-.card-container {
-    display:grid;
-    grid-template-columns: 1fr;
-    gap:2rem;
-    padding:0 2rem;
-    width: 100%;
-    margin-top:-4rem;
-}
-
-
-.cards {
-    background-color: var(--clr-light);
-    display: grid;
-    position: relative;
-    flex-direction: column;
-    align-items: center;
-    gap:2rem;
-    padding: 1.5rem;
-    justify-content: flex-start;
-    grid-template-columns: 1fr;
-    transform: translateY(-5rem);
-}
-
-.cards h1 {
-    /* text-align: center; */
-}
-
-.cards ul {
-    display: grid;
-    gap: 1em;
-    font-size: 19px;
-    font-weight: 300;
-    color: var(--clr-gray);
-    text-align: center;
-}
-
-.card-button {
-    padding: .25rem;
-    background-color: var(--clr-primary);
-    color: var(--clr-highlight);
-    width: 100%;
-    border-radius: 10px;
-    text-align: center;
-}
-@media (min-width:720px) {
-    .card-container {
-        grid-template-columns: repeat(2, 1fr);
-    }   
-    
-}
-
-@media (min-width:900px) {
-    .card-container {
-        grid-template-columns: repeat(3, 1fr);
-    }   
-    
-}
-
-
-.card-header{
-    text-align: center;
-}
-.card-tag {
-    position: absolute;
-    background: linear-gradient(157deg, var(--clr-primary) -12%, var(--clr-primary) 109%);
-    width: 60px;
-    height: 88px;
-    right: 1.5rem;
-    top: -1rem;
-    padding-top: 1.25rem;
-    text-align: center;
-  }
-  
-  .card-tag-number {
-    font-family: var(--pricing-font);
-  }
-  
-  .card-tag-symbol {
-    font-size: var(--smaller-font-size);
-  }
-  
-  .card-tag-number {
-    font-size: var(--h2-font-size);
-  }
-  
-  .card-tag-month {
-    display: block;
-    font-size: var(--tiny-font-size);
-  }
-  
-  .card-tag-number, 
-  .card-tag-month {
-    color: var(--clr-light);
-  }
-  
-  .card-tag::after, 
-  .card-tag::before {
-    content: '';
-    position: absolute;
-  }
-  
-  .card-tag::after {
-    width: 100%;
-    height: 14px;
-    background-color: var(--clr-light);
-    left: 0;
-    bottom: 0;
-    clip-path: polygon(0 100%, 50% 0, 100% 100%);
-  }
-  
-  .card-tag::before {
-    width: 14px;
-    height: 16px;
-    background-color: var(--clr-highlight);
-    top: 0;
-    left: -14px;
-    clip-path: polygon(0 100%, 100% 0, 100% 100%);
-  }
-  
-  .comparison-heading {
-      text-align: center;
-      padding: 2rem;
-  }
-
-  .comparison-heading h1{
-      font-size: clamp(2.2rem, calc(2vw + 1rem), 3.5rem);
-  }
-
-  .pricing-comparison{
-    padding: 2rem calc(18vw - 10rem);
-  }
-
-  .pricing-table{
-      width:100%;
-      text-align: center;
-  }
-
-  .pricing-features__title {
-    margin: 0 0 1rem 0;
-    font-size: 27px;
-    line-height: 1;
-}
-
-  .pricing-table tbody tr:nth-child(even) {
-    background:var(--clr-neutral-2);
-}
-
-.pricing-table tbody th:first-child{
-    text-align: left;
-}
-
-.pricing-table tbody td,
-.pricing-table tbody th
-{
-    font-size:18px;
-    line-height: 30px;
-    padding: 10px;
-    text-align: center;
-    font-weight: 400;
 }
 
 .footer{
