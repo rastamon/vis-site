@@ -89,8 +89,8 @@ section {
 }
 
 .tetra-layer img {
-    transform: scale(0.6);
-    width: 100%;
+    /* transform: scale(0.6);
+    width: 100%; */
 }
 
 .big-paragraph p{
