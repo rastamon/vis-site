@@ -265,9 +265,17 @@ nav .wrapper {
     background-position: left bottom;
     transition: background-size 300ms ease-in-out;
 }
+.fancy-link-dark a{
+    background-image: linear-gradient(90deg, var(--clr-highlight), var(--clr-highlight));
+    background-size: 0% 5px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: background-size 300ms ease-in-out;
+}
 
 .fancy-link:hover,
-.fancy-link-light a:hover
+.fancy-link-light a:hover,
+.fancy-link-dark a:hover
  {  
     background-size: 100% 3px;
 }
