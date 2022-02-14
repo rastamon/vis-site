@@ -12,12 +12,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./Style_Vrt/Style_Vrt_Ver1.3.css">
-    <link rel="stylesheet" href="./Style_Vrt/Style_Vrt_About_Ver1.0.css">
+    <link rel="stylesheet" href="./Style_Vrt/Style_Vrt_News_Ver1.0.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round">
-    <script src="./Scripts_Vrt/particle.js" defer></script>
-    <script src="./Scripts_Vrt/carousel.js" defer></script>
-    <script src="./Scripts_Vrt/tab-switch.js" defer></script>
+    <script src="./Scripts_Vrt/corona.js" defer></script>
+    <link rel="shortcut icon" type="image/svg" href="Images_Vrt/Vis-logo-big.svg" />
 
 </head>
 
@@ -46,7 +45,7 @@
                 <ul class="nav-links">
                     <label for="cancel-btn" class="btn cancel-btn">&times;</label>
                     <li><a href="./Vrt_Events_Ver1.0.html">Events</a></li>
-                    <li><a href="./Vrt_About_Ver1.0.html">Events</a></li>
+                    <li><a href="./Vrt_About_Ver1.0.html">About</a></li>
 
                     <li>
                         <a href="#" class="desktop-item">Resources</a>
@@ -102,18 +101,94 @@
 
 
     <!-- Banner -->
+    <img id="pill" src="Images_Vrt/Virus-Icon.png" style="display: none;">
 
-    <div class="tetra-layer spacer big-paragraph">
-        <img src="./Images_Vrt/Vis-logo-small.svg" alt="">
-        <div class="about-head">
-            <h1 class="primary-title">Who is VIS?</h1>
-            <p>Vis makes quality and Premium services at market value prices.
+    <header class="banner">
 
-            </p>
+        <canvas id="canvas1"></canvas>
+        <div class="bnr-container spacing">
+            <!-- <img src="./Images_Med/Doctor_bkg.png" alt=""> -->
+            <h1 class="primary-title">Stay informed</h1>
+            <p>Be up to date on the latest developments in the coronavirus pandemic </p>
+            <a href="#" class="body-btn">Check CDC guidelines</a>
+        </div>
+    </header>
+
+    <div class="masonry">
+        <div class="masonry-heading">
+            <h1>Latest Stories</h1>
         </div>
 
-    </div>
+        <main class="testimonial-grid">
+            <article class="testimonial grid-col-span-2 flow bg-primary-400 quote text-neutral-100">
+                <div class="overlay-dark"></div>
 
+                <p>
+                    Our very own CEO Will Gates was just named Executive of the year by Time Magazine!
+                </p>
+
+            </article>
+            <article class="testimonial flow bg-secondary-400 text-neutral-100">
+                <div class="overlay-dark"></div>
+
+                <p>
+                    Singer Alissa Locke is entering into a sponsorship deal with Vis.
+                </p>
+            </article>
+            <article class="testimonial flow bg-neutral-100 text-secondary-400">
+                <div class="overlay-dark"></div>
+
+                <p>
+                    VIS Inc. has finally decided to relocate its headquarters to Los
+                    Angeles</p>
+            </article>
+            <article class="testimonial grid-col-span-2 flow bg-secondary-500 text-neutral-100">
+                <div class="overlay-dark"></div>
+
+                <p>
+                    In response to the easing pandemic, VIS is allowing employees to work in the office again. However,
+                    the company will still allow Senior staff to work from home.
+                </p>
+            </article>
+            <article class="testimonial flow bg-neutral-100 text-secondary-400">
+                <div class="overlay-dark"></div>
+
+                <p>
+                    Vis is officially 5 years old. A anniversary ceremony will commence in the next few days.
+                </p>
+            </article>
+        </main>
+        <div class="masonry-heading">
+            <h1>Other Related News</h1>
+        </div>
+
+        <main class="lesser-news">
+            <div class="developer-section other-news">
+                <div class="overlay-dark"></div>
+                <p>
+                    New Developer features and SDKs are here. Vis Ver 1.56 is now available.
+                </p>
+            </div>
+            <div class="partnership-section other-news">
+                <div class="overlay-dark"></div>
+                <p>
+                    After 5 years of existence, Vis has finally cracked the Fortune 500. Rank 487.
+                </p>
+            </div>
+            <div class="stock-section other-news">
+                <div class="overlay-dark"></div>
+                <p>
+                    Chirper employees love using Vis to host karaoke sessions whenever their off on break!
+                </p>
+            </div>
+            <div class="event-section other-news">
+                <div class="overlay-dark"></div>
+                <p>
+                    After 5 years of existence, Vis has finally cracked the Fortune 500. Rank 487.
+                </p>
+            </div>
+        </main>
+    </div>
 
 
     <section class="footer">
