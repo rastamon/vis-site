@@ -224,7 +224,7 @@ section p {
     height: 100%;
     z-index:0;
     border-radius: 0.5rem;
-    background-color: rgba(0,0,0, .7);
+    background-image: linear-gradient(0deg, black, transparent);
   }
  
   
@@ -236,6 +236,7 @@ section p {
 
       grid-auto-columns: 1fr;
       grid-template-areas: 
+        'one'
         'one'
         'two'
         'three'
@@ -302,6 +303,7 @@ section p {
     .testimonial-grid {
         grid-template-areas: 
         'one one'
+        'one one'
         'two five'
         'three five'
         'four four'
@@ -326,6 +328,7 @@ section p {
 
     .testimonial-grid {
         grid-template-areas: 
+            'one one two five'
             'one one two five'
             'three four four five'
         
