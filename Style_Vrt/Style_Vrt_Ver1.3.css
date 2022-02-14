@@ -234,7 +234,7 @@ nav a {
 }
 
 .readable p {
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 5vw, 1.5rem);
     font-weight: 300;
 }
 

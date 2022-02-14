@@ -88,7 +88,7 @@ section {
     text-align: center;
 }
 
-.wave-layer img {
+.tetra-layer img {
     transform: scale(0.6);
     width: 100%;
 }
@@ -118,7 +118,7 @@ section {
 }
 
 .about-box h1{
-    font-size: 3rem;
+    font-size: clamp(2rem, 1px, 3rem);
 }
 
 .about-box {
@@ -136,8 +136,12 @@ section {
     
 }
 
+.about-section .about-box p{
+    text-align: justify;
+}
+
 .about-box p{
-    text-align: left;
+    text-align: center;
 }
 
 .origin-box img {
@@ -155,8 +159,8 @@ section {
     justify-content: center; */
 }
 .founder-cards {
-    display: grid;
-    grid-template-columns: 80vw;
+    display: flex;
+    grid-template-columns: 70vw;
     gap:5rem;
 
 }
@@ -180,6 +184,10 @@ section {
     width: 100%;
     }
 
+    .head-card{
+        flex-basis: 30%;
+    }
+
     .origin-box img{
         width: auto;
     }
@@ -187,4 +195,8 @@ section {
     }
     
     
-
+    @media (min-width:720px) {
+        .head-card{
+            flex-basis: 40%;
+        }
+    }
