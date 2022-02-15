@@ -204,25 +204,16 @@ h1, h2{
 .pdf-container {
 	display:flex;
 	justify-content:space-around;
-	flex-wrap:wrap;
-	min-height:80vh;
-	gap: 2rem
 }
 
-.pdf-box {
-	flex-basis:90%;
+.pdf-container h1 {
+    font-weight: 1000;
+    color:var(--clr-light);
+    -webkit-text-stroke: 2px black;
 }
 
-@media (min-width:900px){
-.pdf-box {
-	flex-basis:45%;
-}
-}
 
-.pdf-box iframe {
-	width:100%;
-	height:100%
-}
+
 
 .footer{
     display: flex;
