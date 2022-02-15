@@ -188,7 +188,7 @@ section {
     }
 
     .head-card{
-        flex-basis: 30%;
+        flex-basis: 40%;
     }
 
     .origin-box img{
@@ -198,8 +198,8 @@ section {
     }
     
     
-    @media (min-width:720px) {
+    @media (min-width:1150px) {
         .head-card{
-            flex-basis: 40%;
+            flex-basis: 30%;
         }
     }
