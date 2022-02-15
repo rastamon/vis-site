@@ -209,7 +209,9 @@ h1, h2{
 	justify-content:space-around;
 }
 
-
+.pdf-link{
+    padding:.5rem;
+}
 .pdf-link:nth-of-type(2){
     border-left:2px solid var(--clr-light) ;
     border-right:2px solid var(--clr-light) ;
