@@ -213,9 +213,7 @@ h1, h2{
 }
 
 
-body{
-    /* background: var(--clr-background); */
-}
+
 
 nav{
     background:var(--clr-dark);
