@@ -202,7 +202,9 @@ h1, h2{
 }
 
 .pdf-container {
+    padding:2rem;
 	display:flex;
+    gap: .5rem;
 	justify-content:space-around;
 }
 
