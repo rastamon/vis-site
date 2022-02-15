@@ -230,6 +230,7 @@ nav{
 
 nav a {
     color: var(--clr-light);
+    text-decoration: none;
 
 }
 
